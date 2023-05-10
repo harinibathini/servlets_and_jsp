@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<form method="post" action="Calculate">
+  <h1>Calculator</h1>
+  <table>
+    <tr>
+      <td>First Number:</td>
+      <td>
+      <input type="text" name="fno">
+      </td>
+    </tr>
+    <tr>
+      <td>Second Number:</td>
+      <td>
+        <input type="text" name="sno">
+      </td>
+    </tr>
+    <tr>
+      <td>Select the operation:</td>
+    </tr>
+    <tr>
+      <td>Addition</td><td><input type="radio" name="operation" value="add"></td>
+      <td>Subtraction</td><td><input type="radio" name="operation" value="sub"></td>
+      <td>Multiplication</td><td><input type="radio" name="operation" value="mul"></td>
+      <td>Division</td><td><input type="radio" name="operation" value="div"></td>
+      <td>Modulus</td><td><input type="radio" name="operation" value="mod"></td>
+    </tr>
+    <tr>
+      <td></td><td><input type="submit" value="Calculate"></td>
+      <td></td><td><input type="reset" value="Reset"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
