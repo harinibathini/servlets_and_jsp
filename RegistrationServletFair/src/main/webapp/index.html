@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+<div align="center">
+  <form method="post" action="RegisterServlet" enctype="multipart/form-data">
+      <fieldset>
+          <h2>REGISTRATION FORM</h2>
+          <table>
+              <tr>
+                  <td>FIRSTNAME</td>
+                  <td><input type="text" name="firstname"></td>
+              </tr>
+              <tr>
+                  <td>LASTNAME</td>
+                  <td><input type="text" name="lastname"></td>
+              </tr>
+              <tr>
+                  <td>DATE OF BIRTH</td>
+                  <td><input type="date" name="dob"></td>
+              </tr>
+              <tr>
+                  <td>EMAIL</td>
+                  <td><input type="text" name="email"></td>
+              </tr>
+              <tr>
+                  <td>PASSWORD</td>
+                  <td><input type="password" name="password"></td>
+              </tr>
+              <tr>
+                  <td>IMAGE</td>
+                  <td><input type="file" name="image"></td>
+              </tr>
+              <tr>
+                  <td>RESUME</td>
+                  <td><input type="file" name="resume"></td>
+              </tr>
+              <tr>
+                  <td>ADDRESS</td>
+                  <td><textarea name="address"></textarea></td>
+              </tr>
+              <tr>
+                  <td>PHONE NO.</td>
+                  <td><input type="number" name="phone"></td>
+              </tr>
+              <tr>
+                  <td><input type="submit" value="SUBMIT"></td>
+                  <td><input type="reset" value="RESET"></td>
+              </tr>
+          </table>
+      </fieldset>
+  </form>
+</div>
+
+</body>
+</html>
