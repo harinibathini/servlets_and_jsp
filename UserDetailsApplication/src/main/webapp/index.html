@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index File</title>
+</head>
+<body>
+
+     <form method="post" action="DetailsServlet">
+       <h1>User Details</h1>
+       Enter name:<input type="text" name="Name"><br>
+       Enter password:<input type="password" name="Password"><br>
+       Gender:
+       <input type="radio" name="Gender" value="Male">Male
+       <input type="radio" name="Gender" value="Female">Female
+       <br>
+       Date Of Birth:<input type="text" name="DOB"><br>
+       Hobbies:<br>
+       <input type="checkbox" name="Hobbies" value="Reading">Reading<br>
+       <input type="checkbox" name="Hobbies" value="Singing">Singing<br>
+       <input type="checkbox" name="Hobbies" value="Dancing">Dancing<br>
+       City:
+       <select name="City">
+         <option value="">Select</option>
+         <option value="Mumbai">Mumbai</option>
+         <option value="Pune">Pune</option>
+         <option value="Banglore">Banglore</option>
+       </select><br>
+       <input type="submit" value="Register">
+       <input type="reset" value="Reset">
+
+     </form>
+</body>
+</html>
